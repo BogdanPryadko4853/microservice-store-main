@@ -1,0 +1,14 @@
+server:
+  port: 8090
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+  data:
+    mongodb:
+      username: bogdan
+      password: bogdan
+      host: localhost
+      port: 27017
+      database: customer
+      authentication-database: admin
