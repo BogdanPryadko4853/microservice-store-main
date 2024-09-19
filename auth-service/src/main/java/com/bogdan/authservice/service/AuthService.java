@@ -30,6 +30,7 @@ public class AuthService {
     }
 
     public RegisterDto register(RegisterRequest request) {
+        System.out.println("PostService");
         return userServiceClient.save(request).getBody();
     }
 }

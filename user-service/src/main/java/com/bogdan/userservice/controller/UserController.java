@@ -24,6 +24,7 @@ public class UserController {
 
     @PostMapping("/save")
     public ResponseEntity<UserDto> save(@Valid @RequestBody RegisterRequest request) {
+        System.out.println("servicePost");
         return ResponseEntity.ok(modelMapper.map(userService.saveUser(request), UserDto.class));
     }
 
