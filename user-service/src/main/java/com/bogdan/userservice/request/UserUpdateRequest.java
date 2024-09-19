@@ -1,9 +1,10 @@
 package com.bogdan.userservice.request;
 
 import com.bogdan.userservice.model.UserDetails;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
 
-import javax.validation.constraints.NotBlank;
+
 
 @Data
 public class UserUpdateRequest {

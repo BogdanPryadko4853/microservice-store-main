@@ -1,9 +1,10 @@
 package com.bogdan.userservice.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import jakarta.persistence.Embeddable;
 import lombok.*;
 
-import javax.persistence.Embeddable;
+
 
 @Embeddable
 @Builder

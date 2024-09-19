@@ -2,9 +2,10 @@ package com.bogdan.userservice.model;
 
 import com.bogdan.userservice.enums.Active;
 import com.bogdan.userservice.enums.Role;
+import jakarta.persistence.*;
 import lombok.*;
 
-import javax.persistence.*;
+
 
 @Entity(name = "users")
 @Builder

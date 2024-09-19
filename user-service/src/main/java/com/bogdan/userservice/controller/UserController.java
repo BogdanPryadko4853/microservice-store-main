@@ -5,6 +5,7 @@ import com.bogdan.userservice.request.UserUpdateRequest;
 import com.bogdan.userservice.service.UserService;
 import com.bogdan.userservice.dto.AuthUserDto;
 import com.bogdan.userservice.dto.UserDto;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +13,6 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.validation.Valid;
 import java.util.List;
 
 @RestController

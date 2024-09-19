@@ -1,13 +1,16 @@
 spring:
   datasource:
+    url: jdbc:postgresql://localhost:5432/micro
+    username: postgres
+    password: rootroot
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/users
-    username: bogdan
-    password: bogdan
+    application:
+      description: Your Application Description
+
   jpa:
     hibernate:
       ddl-auto: create
-    database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+    name: auth-server
 server:
   port: 9000
