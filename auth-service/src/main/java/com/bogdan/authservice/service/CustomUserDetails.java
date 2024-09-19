@@ -11,7 +11,6 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @RequiredArgsConstructor
-
 public class CustomUserDetails implements UserDetails {
     private final UserDto user;
 
