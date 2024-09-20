@@ -57,7 +57,6 @@ public class CustomerControllerTest {
 
         verify(customerService, times(1)).createCustomer(request);
     }
-
     @Test
     public void testUpdateCustomer() throws Exception {
         // Arrange
@@ -72,9 +71,8 @@ public class CustomerControllerTest {
                         .content(objectMapper.writeValueAsString(request)))
                 .andExpect(status().isAccepted());
 
-        verify(customerService, times(1)).updateCustomer(request);
+        verify(customerService, times(1)).updateCustomer(refEq(request));
     }
-
     @Test
     public void testFindAllCustomers() throws Exception {
         // Arrange
