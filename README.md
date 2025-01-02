@@ -38,7 +38,7 @@
 ## Схема Базы Данных
 
 <p align="center">
-  <img src="database_scheme.png" alt="Database Scheme" width="600">
+  <img src="Снимок экрана от 2025-01-03 00-29-46.png" alt="Database Scheme" width="600">
 </p>
 
 <br>
