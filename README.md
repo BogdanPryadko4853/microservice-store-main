@@ -72,7 +72,7 @@
 
 ## Архитектура Приложения
 <p align="center">
-  <img src="architecture.png" alt="Architecture" width="800">
+  <img src="Снимок экрана от 2025-01-03 00-27-40.png" alt="Architecture" width="800">
 </p>
 
 <br>
