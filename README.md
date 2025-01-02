@@ -1,7 +1,12 @@
 <h1 align="center">Microservice Store</h1>
+<br>
+
+## Архитектура Приложения
 <p align="center">
-  <img src="project_scheme.png" alt="Project Scheme" width="600">
+  <img src="Снимок экрана от 2025-01-03 00-27-40.png" alt="Architecture" width="800">
 </p>
+
+<br>
 
 <p align="center">
   Это демонстрационное микросервисное приложение, разработанное с использованием Spring Cloud, для управления интернет-магазином.
@@ -68,14 +73,7 @@
     Эта команда запустит все необходимые сервисы в Docker-контейнерах.
 
 
-<br>
 
-## Архитектура Приложения
-<p align="center">
-  <img src="Снимок экрана от 2025-01-03 00-27-40.png" alt="Architecture" width="800">
-</p>
-
-<br>
 
 ## Описание сервисов
 
