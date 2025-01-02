@@ -60,8 +60,8 @@
 1.  **Клонирование репозитория:**
 
     ```bash
-    git clone <ссылка на ваш репозиторий>
-    cd <название вашего репозитория>
+    git clone https://github.com/BogdanPryadko4853/microservice-store-main
+    cd microservice-store-main
     ```
 
 2.  **Запуск Docker Compose:**
